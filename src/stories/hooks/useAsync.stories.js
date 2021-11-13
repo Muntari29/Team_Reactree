@@ -1,4 +1,4 @@
-import useAsync from '../../hooks/useAsync'
+import useAsync from '@hooks/useAsync'
 
 export default {
   title: 'Hooks/useAsync',

@@ -1,6 +1,6 @@
-import SearchBar from '../../components/base/SearchBar'
+import SearchBar from '@base/SearchBar'
 import styled from '@emotion/styled'
-import ImgPath from '../../assets/leaf.png'
+import ImgPath from '@assets/leaf.png'
 
 export default {
   title: 'Components/base/SearchBar',

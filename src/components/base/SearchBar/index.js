@@ -2,8 +2,8 @@ import React, { useCallback } from 'react'
 import { useState, useRef, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import Avatar from '../Avatar'
-import useForm from '../../../hooks/useForm'
-import Text from '../../base/Text'
+import useForm from '@hooks/useForm'
+import Text from '@base/Text'
 import {
   Search,
   Form,
@@ -13,7 +13,7 @@ import {
   DataItem,
   DataButton,
 } from './styled'
-import { Authorization } from '../../../utils/Api'
+import { Authorization } from '@utils/Api'
 
 const SearchBar = React.memo(({ friendList, initFollow, ...props }) => {
   const [result, setResult] = useState([])

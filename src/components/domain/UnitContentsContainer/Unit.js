@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import styled from '@emotion/styled'
-import ImgPath from '../../../assets/unit.png'
-import LockPath from '../../../assets/lock.png'
-import ModalContainer from '../../../components/base/ModalContainer'
+import ImgPath from '@assets/unit.png'
+import LockPath from '@assets/lock.png'
+import ModalContainer from '@base/ModalContainer'
 
 const Unit = ({
   unitId,

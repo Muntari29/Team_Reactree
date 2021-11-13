@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import LevelUnit from './LevelUnit'
-import Level1 from '../../../assets/level1.png'
-import Level2 from '../../../assets/level2.png'
-import Level3 from '../../../assets/level3.png'
+import Level1 from '@assets/level1.png'
+import Level2 from '@assets/level2.png'
+import Level3 from '@assets/level3.png'
 
 const LevelUnitContainer = ({ step = 0, userInfo, channelName, clickHandler }) => {
   return (

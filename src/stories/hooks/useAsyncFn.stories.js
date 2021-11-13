@@ -1,4 +1,4 @@
-import useAsyncFn from '../../hooks/useAsyncFn'
+import useAsyncFn from '@hooks/useAsyncFn'
 
 export default {
   title: 'Hooks/useAsyncFn',

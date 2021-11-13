@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import Header from '../../components/domain/Header'
-import UnitContentsContainer from '../../components/domain/UnitContentsContainer'
-import { RequestApi, Authorization } from '../../utils/Api'
+import Header from '@domain/Header'
+import UnitContentsContainer from '@domain/UnitContentsContainer'
+import { RequestApi, Authorization } from '@utils/Api'
 import { Div1, Div2 } from './style'
 
 const MyTreePage = () => {
