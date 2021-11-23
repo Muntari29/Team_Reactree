@@ -8,6 +8,7 @@ import Button from '@base/Button'
 import { useCallback } from 'react'
 import { useUserContext } from '@contexts/UserProvider'
 import Text from '@base/Text'
+import ImgPath from '@assets/pageMove.png'
 
 const Comment = ({ postId, userInfo }) => {
   const [newComment, setNewComment] = useState('')
@@ -197,7 +198,8 @@ const Comment = ({ postId, userInfo }) => {
       </CommentsContainer>
       <MyComment>
         <Form onSubmit={handleSubmit}>
-          <Avatar src={userInfo.image} size={50} style={{ marginRight: '8px' }} />
+          {/* API Image 사용 불가에 따른 디폴트 이미지 사용 */}
+          <Avatar src={ImgPath} size={50} style={{ marginRight: '8px' }} />
           <label htmlFor="myComment" />
           <Input
             id="myComment"

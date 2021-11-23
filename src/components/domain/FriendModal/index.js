@@ -8,6 +8,7 @@ import Badge from '@base/Badge'
 import Text from '@base/Text'
 import SearchBar from '@base/SearchBar'
 import { Authorization } from '@utils/Api'
+import ImgPath from '@assets/pageMove.png'
 
 const FriendModal = ({ showModal = false, onClose, userInfo, ...props }) => {
   // const loginUserId = '617c01c9f4f4476099ac7995'
@@ -61,7 +62,8 @@ const FriendModal = ({ showModal = false, onClose, userInfo, ...props }) => {
               friendList.map((user) => (
                 <SearchRes key={user._id}>
                   <div>
-                    <Avatar src={user.image} size={30} />
+                    {/* API Image 사용 불가에 따른 디폴트 이미지 사용 */}
+                    <Avatar src={ImgPath} size={30} />
                     <Badge isOnline={user.isOnline} />
                   </div>
                   <div>
